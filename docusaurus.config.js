@@ -1,17 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-const path = require('path');
+const path = require('path')
 
 module.exports = {
   title: 'Novabolt',
   tagline: 'Hệ thống quản lý dịch vụ mua hàng hộ',
   url: 'https://novabolt.dev',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/mark.png',
   organizationName: 'novaboltlabs', // Usually your GitHub org/user name.
   projectName: 'novabolt.dev', // Usually your repo name.
-  plugins: [path.resolve(__dirname, 'plugins/docusaurus-tailwindcss-loader')],
+  plugins: [
+    path.resolve(__dirname, 'plugins/docusaurus-tailwindcss-loader'),
+  ],
   i18n: {
     defaultLocale: 'vi',
     locales: ['vi'],
@@ -73,7 +76,11 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+        }
       },
     ],
   ],
-};
+}
