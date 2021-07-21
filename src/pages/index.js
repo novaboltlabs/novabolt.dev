@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
                 <div className="tw-mt-20">
                   <div>
-                    <a href="https://github.com/novaboltlabs/novabolt/releases" target="_blank" className="tw-inline-flex tw-space-x-4 tw-no-underline">
+                    <Link to="https://github.com/novaboltlabs/novabolt/releases" target="_blank" className="tw-inline-flex tw-space-x-4 tw-no-underline">
                       <span className="tw-rounded tw-bg-indigo-50 tw-px-2.5 tw-py-1 tw-text-xs tw-font-semibold tw-text-indigo-500 tw-tracking-wide tw-uppercase">
                         Có gì mới
                       </span>
@@ -35,7 +35,7 @@ export default function Home() {
                           <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd"/>
                         </svg>
                       </span>
-                    </a>
+                    </Link>
                   </div>
                   <div className="tw-mt-6 sm:tw-max-w-xl">
                     <h1 className="tw-text-4xl tw-font-extrabold tw-text-gray-900 tw-tracking-tight sm:tw-text-5xl">
