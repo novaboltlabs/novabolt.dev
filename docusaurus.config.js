@@ -30,6 +30,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    image: 'img/cover.png',
     navbar: {
       title: 'Novabolt',
       logo: {
