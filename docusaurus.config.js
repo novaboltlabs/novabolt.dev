@@ -50,6 +50,20 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          label: 'Demo',
+          position: 'left',
+          items: [
+            {
+              label: 'Khách hàng',
+              href: 'https://demo.novabolt.dev/user'
+            },
+            {
+              label: 'Quản trị viên',
+              href: 'https://demo.novabolt.dev/admin'
+            }
+          ]
+        },
       ],
     },
     footer: {
