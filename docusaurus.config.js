@@ -73,6 +73,11 @@ module.exports = {
     prism: {
       additionalLanguages: ['php'],
     },
+    googleAnalytics: {
+      trackingID: 'G-ZB7YCVHR3K',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
