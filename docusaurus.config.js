@@ -74,7 +74,7 @@ module.exports = {
       additionalLanguages: ['php'],
     },
     googleAnalytics: {
-      trackingID: 'G-ZB7YCVHR3K',
+      gtag: 'G-ZB7YCVHR3K',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
