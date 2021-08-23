@@ -236,21 +236,34 @@ export default function Home() {
                 <div className="tw-relative">
                   <div className="sm:tw-text-center">
                     <h2 className="tw-text-3xl tw-font-extrabold tw-text-white tw-tracking-tight sm:tw-text-4xl">
-                      Đăng ký nhận bản tin.
+                      Hỗ trợ triển khai
                     </h2>
-                    <p className="tw-mt-6 tw-mx-auto tw-max-w-2xl tw-text-lg tw-text-indigo-100">
-                      {siteConfig.title} đang trong trạng thái phát triển tích cực, hãy để lại email và chúng tôi sẽ gửi
-                      đến bạn thông tin cập nhật về các phiên bản mới thường xuyên.
+                    <p className="tw-mt-6 tw-mx-auto tw-max-w-3xl tw-text-lg tw-text-indigo-100">
+                      Nếu bạn gặp khó khăn khi triển khai hệ thống {siteConfig.title}, hãy liên hệ để được trợ giúp!
                     </p>
                   </div>
-                  <form action="https://dev.us1.list-manage.com/subscribe/post?u=f0f8efcef0fe03b9e12324c6a&id=715f7f1c77" method="post" className="tw-mt-12 sm:tw-mx-auto sm:tw-max-w-lg sm:tw-flex">
-                    <div className="tw-min-w-0 tw-flex-1">
-                      <label htmlFor="cta_email" className="tw-sr-only">Địa chỉ Email</label>
-                      <input id="cta_email" type="email" name="MERGE0" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500" placeholder="Email của bạn"/>
+                  <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true" netlify-honeypot="website">
+                    <div>
+                      <label htmlFor="name" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Họ và Tên</label>
+                      <input type="text" name="name" id="name" placeholder="Họ và Tên" autoComplete="name" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
                     </div>
-                    <div className="tw-mt-4 sm:tw-mt-0 sm:tw-ml-3">
-                      <button type="submit" className="tw-block tw-w-full tw-rounded-md tw-border tw-border-transparent tw-cursor-pointer tw-px-5 tw-py-3 tw-bg-gray-900 tw-text-base tw-font-medium tw-text-white tw-shadow hover:tw-bg-black focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500 sm:tw-px-10">
-                        Báo cho tôi
+                    <div>
+                      <label htmlFor="phone" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Điện thoại</label>
+                      <input type="text" name="phone" id="phone" placeholder="Điện thoại" autoComplete="phone" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
+                    </div>
+                    <div>
+                      <label htmlFor="email" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Email</label>
+                      <input type="text" name="email" id="email" placeholder="Email" autoComplete="email" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
+                    </div>
+                    <div className="sm:tw-col-span-3">
+                      <label htmlFor="about" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Nội dung</label>
+                      <div className="mt-1">
+                        <textarea id="about" name="about" rows="4" className="tw-block tw-font-sans tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500" placeholder="Hãy cho chúng tôi biết bạn cần hỗ trợ điều gì?"/>
+                      </div>
+                    </div>
+                    <div className="sm:tw-col-span-3">
+                      <button type="submit" className="tw-w-full tw-inline-flex tw-items-center tw-justify-center tw-px-6 tw-py-3 tw-cursor-pointer tw-border tw-border-transparent tw-rounded-md tw-shadow-sm tw-text-base tw-font-medium tw-text-white tw-bg-indigo-800 hover:tw-bg-indigo-700 focus:tw-outline-none focus:tw-ring-2 focus:tw-ring-offset-2 focus:tw-ring-indigo-500">
+                        Liên hệ hỗ trợ
                       </button>
                     </div>
                   </form>
