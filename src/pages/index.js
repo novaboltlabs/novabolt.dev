@@ -14,7 +14,7 @@ export default function Home() {
   const [open, setOpen] = useState(false)
   return (
       <>
-        <LayoutHead title={siteConfig.tagline} />
+        <LayoutHead title={siteConfig.tagline} description="Cung cấp đầy đủ các tính năng thiết yếu hỗ trợ triển khai hệ thống quản lý dịch vụ mua hàng hộ một cách đơn giản, nhanh chóng và miễn phí." />
 
         <main className="tw-bg-white tw-mb-24 sm:tw-mb-12">
           <div className="tw-pt-8 tw-overflow-hidden sm:tw-pt-12 lg:tw-relative lg:tw-py-48">

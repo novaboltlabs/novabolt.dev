@@ -3,7 +3,7 @@ const path = require('path')
 
 module.exports = {
   title: 'Novabolt',
-  tagline: 'Hệ thống quản lý dịch vụ mua hàng hộ',
+  tagline: 'Hệ thống quản lý dịch vụ mua hàng hộ toàn diện',
   url: 'https://novabolt.dev',
   baseUrl: '/',
   trailingSlash: false,
