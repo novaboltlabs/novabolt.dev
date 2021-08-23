@@ -242,7 +242,7 @@ export default function Home() {
                       Nếu bạn gặp khó khăn khi triển khai hệ thống {siteConfig.title}, hãy liên hệ để được trợ giúp!
                     </p>
                   </div>
-                  <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true" netlify-honeypot="website">
+                  <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true">
                     <div>
                       <label htmlFor="name" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Họ và Tên</label>
                       <input type="text" name="name" id="name" placeholder="Họ và Tên" autoComplete="name" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
@@ -256,9 +256,9 @@ export default function Home() {
                       <input type="text" name="email" id="email" placeholder="Email" autoComplete="email" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
                     </div>
                     <div className="sm:tw-col-span-3">
-                      <label htmlFor="about" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Nội dung</label>
+                      <label htmlFor="content" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Nội dung</label>
                       <div className="mt-1">
-                        <textarea id="about" name="about" rows="4" className="tw-block tw-font-sans tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500" placeholder="Hãy cho chúng tôi biết bạn cần hỗ trợ điều gì?"/>
+                        <textarea id="content" name="content" rows="4" className="tw-block tw-font-sans tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500" placeholder="Hãy cho chúng tôi biết bạn cần hỗ trợ điều gì?"/>
                       </div>
                     </div>
                     <div className="sm:tw-col-span-3">
