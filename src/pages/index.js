@@ -242,7 +242,7 @@ export default function Home() {
                       Nếu bạn gặp khó khăn khi triển khai hệ thống {siteConfig.title}, hãy liên hệ để được trợ giúp!
                     </p>
                   </div>
-                  <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true">
+                  <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true" data-netlify-honeypot="website">
                     <input type="hidden" name="form-name" value="support" />
                     <div>
                       <label htmlFor="name" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Họ và Tên</label>
