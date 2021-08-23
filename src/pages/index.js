@@ -243,6 +243,7 @@ export default function Home() {
                     </p>
                   </div>
                   <form name="support" className="tw-mt-12 tw-max-w-2xl tw-mx-auto tw-grid tw-grid-cols-1 tw-gap-y-6 sm:tw-grid-cols-3 sm:tw-gap-x-8" data-netlify="true">
+                    <input type="hidden" name="form-name" value="support" />
                     <div>
                       <label htmlFor="name" className="tw-sr-only tw-block tw-text-sm tw-font-medium tw-text-indigo-100">Họ và Tên</label>
                       <input type="text" name="name" id="name" placeholder="Họ và Tên" autoComplete="name" className="tw-block tw-w-full tw-border tw-border-transparent tw-rounded-md tw-px-5 tw-py-3 tw-text-base tw-text-gray-900 tw-placeholder-gray-500 tw-shadow-sm focus:tw-outline-none focus:tw-border-transparent focus:tw-ring-2 focus:tw-ring-white focus:tw-ring-offset-2 focus:tw-ring-offset-indigo-500"/>
