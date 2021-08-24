@@ -68,7 +68,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Novabolt Labs`,
+      copyright: `Copyright © ${new Date().getFullYear()} Novabolt Labs. Built with Docusaurus.`,
     },
     prism: {
       additionalLanguages: ['php'],
