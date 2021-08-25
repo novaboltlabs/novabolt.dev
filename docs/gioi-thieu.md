@@ -1,4 +1,6 @@
 ---
+description: "Novabolt là mã nguồn hệ thống ứng dụng quản lý dịch vụ mua hàng hộ phù hợp với các cá nhân tự doanh hoặc
+doanh nghiệp vừa và nhỏ."
 sidebar_label: "Giới thiệu"
 sidebar_position: 1
 ---
